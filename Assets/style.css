@@ -120,10 +120,6 @@ footer h5 {
       align-items: center;
       text-align: center;
     }
-    #portrait {
-        -webkit-box-reflect: right;
-        margin-left: 0px;
-    }
 }    
 
 @media screen and (max-width: 768px) {
