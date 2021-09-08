@@ -17,7 +17,9 @@ SO THAT they can review samples of my work and assess whether they believe me to
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./Assets/images/Web capture_7-9-2021_22917_)
+```md
+![portfolio-demo](./Assets/images/Web capture_7-9-2021_22917_)
+```
 
 
 ## Credits
