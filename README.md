@@ -17,7 +17,7 @@ SO THAT they can review samples of my work and assess whether they believe me to
 
 The following animation shows the web application's appearance and functionality:
 
-![Web-Capture](https://ramirez-s.github.io/Portfolio/)
+![Web-Capture](https://github.com/ramirez-s/Portfolio/blob/main/Assets/Images/Web-Capture.jpeg)
 
 ## Credits
 
