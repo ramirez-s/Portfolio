@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+body {
+    background-color: #ffeef0;
+}
+
+header {
+    font-size: 75px;
+    font-style: italic;
+    color: rgb(34, 0, 78);
+    float: center;
+    text-align: center;
+    border: rgb(34, 0, 78);
+    border-style: double;
+    border-width: thick;
+    background-color: rgb(248, 165, 248);
+}
+
+a {
+    padding: 25px 25px 25px 25px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+#portrait {
+    -webkit-box-reflect: right;
+    margin-left: 180px;
+}
+
+#photo1 {
+    object-fit: contain;
+    width: 1100px;
+    height: 1000px;
+    
+}
+
+#photo2 {
+    object-fit: contain;
+    width: 900px;
+    height: 800px;
+    
+}
+
+#photo3 {
+    object-fit: contain;
+    width: 800px;
+    height: 700px;
+    
+}
+
+p {
+    font-size: 20px;
+    flex-flow: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+h1 {
+    text-align: center;
+    text-decoration: black underline;
+    font-size: 50px;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headers {
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 15px;
+    padding: 25px;
+    clear: both;
+    text-align: left;
+}
+
+footer h5 {
+    border: black;
+    border-style: solid;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*Insert media queries for tablet and smartphone sizing. */
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: lightskyblue;
+      flex-flow: column;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+    #portrait {
+        align-items: center;
+        -webkit-box-direction: normal;
+    }
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: lightgreen;
+      flex-flow: wrap;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+  }
